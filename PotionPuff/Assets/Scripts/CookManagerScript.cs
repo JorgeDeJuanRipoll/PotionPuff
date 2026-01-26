@@ -15,6 +15,8 @@ public class CookManagerScript : MonoBehaviour
     public int potionNum;
 
     public int cantidadIng;
+
+    public PedidosManager pedidosManager;
     void Start()
     {
         ResetIngredientes();
@@ -56,7 +58,7 @@ public class CookManagerScript : MonoBehaviour
         {
             potionNum = 2;
         }
-        if(I8 == true && I6 == true && I1)
+        if(I8 == true && I6 == true && I1 ==true)
         {
             potionNum = 3;
         }
@@ -72,6 +74,8 @@ public class CookManagerScript : MonoBehaviour
         {
             Debug.Log("Has hecho la pocion 1");
             ResetIngredientes();
+            pedidosManager.PedidoRandom();
+            
         }
     }
     public void Potion2Win()
@@ -80,6 +84,7 @@ public class CookManagerScript : MonoBehaviour
         {
             Debug.Log("Has hecho la pocion 2");
             ResetIngredientes();
+            pedidosManager.PedidoRandom();
         }
     }
     public void Potion3Win()
@@ -88,6 +93,7 @@ public class CookManagerScript : MonoBehaviour
         {
             Debug.Log("Has hecho la pocion 1");
             ResetIngredientes();
+            pedidosManager.PedidoRandom();
         }
     }
     public void Potion4Win()
@@ -96,6 +102,7 @@ public class CookManagerScript : MonoBehaviour
         {
             Debug.Log("Has hecho la pocion 1");
             ResetIngredientes();
+            pedidosManager.PedidoRandom();
         }
     }
     public void PotionLose()
@@ -104,6 +111,7 @@ public class CookManagerScript : MonoBehaviour
         {
             Debug.Log("Has fallado la pocion");
             ResetIngredientes();
+            pedidosManager.PedidoRandom();
         }
     }
 }

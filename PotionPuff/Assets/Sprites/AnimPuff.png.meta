@@ -1,0 +1,389 @@
+fileFormatVersion: 2
+guid: 81e5df07e9b76ce47a451b720ecc9255
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8569045948828779598
+    second: AnimPuff_0
+  - first:
+      213: 6556526032717689020
+    second: AnimPuff_1
+  - first:
+      213: -391549531584980762
+    second: AnimPuff_2
+  - first:
+      213: 7394203232836336655
+    second: AnimPuff_3
+  - first:
+      213: -6162150479055103140
+    second: AnimPuff_4
+  - first:
+      213: -9047678064078414651
+    second: AnimPuff_5
+  - first:
+      213: 8646157947741589974
+    second: AnimPuff_6
+  - first:
+      213: 139063070001958484
+    second: AnimPuff_7
+  - first:
+      213: 4491703068549519736
+    second: AnimPuff_8
+  - first:
+      213: 3281992772533533936
+    second: AnimPuff_9
+  - first:
+      213: 4584921520508900542
+    second: AnimPuff_10
+  - first:
+      213: -3159772009122315785
+    second: AnimPuff_11
+  - first:
+      213: 6906791647840282052
+    second: AnimPuff_12
+  - first:
+      213: 5134929494364273673
+    second: AnimPuff_13
+  - first:
+      213: 1893802003588431351
+    second: AnimPuff_14
+  - first:
+      213: 1311309328650405105
+    second: AnimPuff_15
+  - first:
+      213: 8844580163709977551
+    second: AnimPuff_16
+  - first:
+      213: -2282760834586790187
+    second: AnimPuff_17
+  - first:
+      213: -7726663464688931218
+    second: AnimPuff_18
+  - first:
+      213: 7182996004734836502
+    second: AnimPuff_19
+  - first:
+      213: 9070814134627471021
+    second: AnimPuff_20
+  - first:
+      213: -3235373494095262302
+    second: AnimPuff_21
+  - first:
+      213: 3704506769957812957
+    second: AnimPuff_22
+  - first:
+      213: 8275405837061394345
+    second: AnimPuff_23
+  - first:
+      213: -6372721521404292456
+    second: AnimPuff_24
+  - first:
+      213: 6541569326283830089
+    second: AnimPuff_25
+  - first:
+      213: -8497829613913364984
+    second: AnimPuff_26
+  - first:
+      213: -1535281559361291394
+    second: AnimPuff_27
+  - first:
+      213: 6282765076336167828
+    second: AnimPuff_28
+  - first:
+      213: -7407051711404952747
+    second: AnimPuff_29
+  - first:
+      213: -7033988135357942702
+    second: AnimPuff_30
+  - first:
+      213: 5195995567401808932
+    second: AnimPuff_31
+  - first:
+      213: -7010357650471085517
+    second: AnimPuff_32
+  - first:
+      213: 6908072908203634703
+    second: AnimPuff_33
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AnimPuff_0
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 232
+        width: 372
+        height: 368
+      alignment: 9
+      pivot: {x: 0.5156996, y: 0.4400444}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bb7f0c3c12a41980800000000000000
+      internalID: -8569045948828779598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimPuff_1
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 230
+        width: 348
+        height: 377
+      alignment: 9
+      pivot: {x: 0.496407, y: 0.48341843}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb03db450b57dfa50800000000000000
+      internalID: 6556526032717689020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimPuff_2
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 223
+        width: 334
+        height: 389
+      alignment: 9
+      pivot: {x: 0.47116143, y: 0.48199174}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e818e986cfe09af0800000000000000
+      internalID: -391549531584980762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimPuff_3
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 642
+        width: 334
+        height: 298
+      alignment: 9
+      pivot: {x: 0.5092514, y: 0.48548225}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0c31420aac7d9660800000000000000
+      internalID: 7394203232836336655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimPuff_34
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 284
+        width: 254
+        height: 261
+      alignment: 9
+      pivot: {x: 0.50510955, y: 0.46519136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d107676a5b50a647b14daea1f1f47b5
+      internalID: -1445476813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimPuff_35
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 361
+        width: 83
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b51797c097d76a40a63ea2e638f63bc
+      internalID: 1189615779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 99d80dc26a2a7d244bf3d7aa6968f257
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      AnimPuff_0: -8569045948828779598
+      AnimPuff_1: 6556526032717689020
+      AnimPuff_10: 4584921520508900542
+      AnimPuff_11: -3159772009122315785
+      AnimPuff_12: 6906791647840282052
+      AnimPuff_13: 5134929494364273673
+      AnimPuff_14: 1893802003588431351
+      AnimPuff_15: 1311309328650405105
+      AnimPuff_16: 8844580163709977551
+      AnimPuff_17: -2282760834586790187
+      AnimPuff_18: -7726663464688931218
+      AnimPuff_19: 7182996004734836502
+      AnimPuff_2: -391549531584980762
+      AnimPuff_20: 9070814134627471021
+      AnimPuff_21: -3235373494095262302
+      AnimPuff_22: 3704506769957812957
+      AnimPuff_23: 8275405837061394345
+      AnimPuff_24: -6372721521404292456
+      AnimPuff_25: 6541569326283830089
+      AnimPuff_26: -8497829613913364984
+      AnimPuff_27: -1535281559361291394
+      AnimPuff_28: 6282765076336167828
+      AnimPuff_29: -7407051711404952747
+      AnimPuff_3: 7394203232836336655
+      AnimPuff_30: -7033988135357942702
+      AnimPuff_31: 5195995567401808932
+      AnimPuff_32: -7010357650471085517
+      AnimPuff_33: 6908072908203634703
+      AnimPuff_34: -1445476813
+      AnimPuff_35: 1189615779
+      AnimPuff_4: -6162150479055103140
+      AnimPuff_5: -9047678064078414651
+      AnimPuff_6: 8646157947741589974
+      AnimPuff_7: 139063070001958484
+      AnimPuff_8: 4491703068549519736
+      AnimPuff_9: 3281992772533533936
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

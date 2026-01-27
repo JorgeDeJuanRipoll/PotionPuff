@@ -1,8 +1,13 @@
 using UnityEngine;
+using System.Collections;
 
 public class Ingrediente3 : MonoBehaviour
 {
     public CookManagerScript cookManagerScript;
+    public GameObject Puff;
+    public Transform PuffPositon;
+    public Transform TPIngrediente;
+    public GameObject IngFalso;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -19,5 +24,21 @@ public class Ingrediente3 : MonoBehaviour
     {
         cookManagerScript.I3 = true;
         cookManagerScript.cantidadIng++;
+        Instantiate(Puff, PuffPositon);
+        StartCoroutine(TPIngredienteTiming());
+    }
+    IEnumerator TPIngredienteTiming()
+    {
+
+        yield return new WaitForSeconds(0.583f);
+        invoqueIng();
+
+
+
+
+    }
+    public void invoqueIng()
+    {
+        Instantiate(IngFalso, TPIngrediente);
     }
 }

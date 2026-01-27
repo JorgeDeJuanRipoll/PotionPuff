@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class CookManagerScript : MonoBehaviour
@@ -16,6 +17,9 @@ public class CookManagerScript : MonoBehaviour
 
     public int cantidadIng;
 
+  
+
+
     public PedidosManager pedidosManager;
     void Start()
     {
@@ -27,6 +31,7 @@ public class CookManagerScript : MonoBehaviour
     {
         Cocinar();
         PotionLose();
+      
     }
 
     public void ResetIngredientes()
@@ -46,7 +51,7 @@ public class CookManagerScript : MonoBehaviour
 
     public void Cocinar()
     {
-        if (I1 == true && I3 == true && I5 == true && cantidadIng ==3)
+        if (I1 == true && I3 == true && I5 == true && cantidadIng == 3)
         {
             potionNum = 5;
         }
@@ -74,7 +79,9 @@ public class CookManagerScript : MonoBehaviour
         {
             Debug.Log("Has hecho la pocion 1");
             ResetIngredientes();
+           
             pedidosManager.PedidoRandom();
+           
             
         }
     }
@@ -84,7 +91,9 @@ public class CookManagerScript : MonoBehaviour
         {
             Debug.Log("Has hecho la pocion 2");
             ResetIngredientes();
+
             pedidosManager.PedidoRandom();
+            
         }
     }
     public void Potion3Win()
@@ -93,7 +102,9 @@ public class CookManagerScript : MonoBehaviour
         {
             Debug.Log("Has hecho la pocion 1");
             ResetIngredientes();
+           
             pedidosManager.PedidoRandom();
+           
         }
     }
     public void Potion4Win()
@@ -102,7 +113,9 @@ public class CookManagerScript : MonoBehaviour
         {
             Debug.Log("Has hecho la pocion 1");
             ResetIngredientes();
+            
             pedidosManager.PedidoRandom();
+            
         }
     }
     public void PotionLose()
@@ -111,7 +124,16 @@ public class CookManagerScript : MonoBehaviour
         {
             Debug.Log("Has fallado la pocion");
             ResetIngredientes();
+            
             pedidosManager.PedidoRandom();
+           
         }
     }
+
+  
+
+   
+
+  
+  
 }

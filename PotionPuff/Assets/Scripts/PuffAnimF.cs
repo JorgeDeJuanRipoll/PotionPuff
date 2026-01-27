@@ -8,7 +8,7 @@ public class PuffAnimF : MonoBehaviour
     void Start()
     {
         Instantiate(Puff, PuffTransform);
-        Destroy(gameObject,3f);
+        Destroy(gameObject,0.8f);
     }
 
     // Update is called once per frame

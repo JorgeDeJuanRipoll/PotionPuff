@@ -17,6 +17,7 @@ public class CookManagerScript : MonoBehaviour
 
     public int cantidadIng;
 
+    
   
 
 
@@ -24,6 +25,8 @@ public class CookManagerScript : MonoBehaviour
     void Start()
     {
         ResetIngredientes();
+     
+
     }
 
     // Update is called once per frame
@@ -31,6 +34,7 @@ public class CookManagerScript : MonoBehaviour
     {
         Cocinar();
         PotionLose();
+        
       
     }
 
@@ -81,7 +85,8 @@ public class CookManagerScript : MonoBehaviour
             ResetIngredientes();
            
             pedidosManager.PedidoRandom();
-           
+
+            pedidosManager.SalirEscoba1();
             
         }
     }
@@ -93,7 +98,8 @@ public class CookManagerScript : MonoBehaviour
             ResetIngredientes();
 
             pedidosManager.PedidoRandom();
-            
+
+            pedidosManager.SalirEscoba2();
         }
     }
     public void Potion3Win()
@@ -104,7 +110,10 @@ public class CookManagerScript : MonoBehaviour
             ResetIngredientes();
            
             pedidosManager.PedidoRandom();
-           
+
+            pedidosManager.SalirEscoba3();
+            
+
         }
     }
     public void Potion4Win()
@@ -115,7 +124,8 @@ public class CookManagerScript : MonoBehaviour
             ResetIngredientes();
             
             pedidosManager.PedidoRandom();
-            
+          
+            pedidosManager.SalirEscoba4();
         }
     }
     public void PotionLose()
@@ -126,12 +136,13 @@ public class CookManagerScript : MonoBehaviour
             ResetIngredientes();
             
             pedidosManager.PedidoRandom();
-           
+            
+
         }
     }
 
   
-
+    
    
 
   

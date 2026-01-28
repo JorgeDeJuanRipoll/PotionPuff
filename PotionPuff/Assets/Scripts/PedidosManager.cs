@@ -8,10 +8,24 @@ public class PedidosManager : MonoBehaviour
     public GameObject Pedido4;
 
     public int NPedidos;
+
+
+
+    PedidoPocion1 pedidoPocion1;
+    PedidoPocion2 pedidoPocion2;
+    PedidoPocion3 pedidoPocion3;
+    PedidoPocion4 pedidoPocion4;
+
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         PedidoRandom();
+        pedidoPocion1 = Pedido1.GetComponent<PedidoPocion1>();
+        pedidoPocion2 = Pedido2.GetComponent<PedidoPocion2>();
+        pedidoPocion3 = Pedido3.GetComponent<PedidoPocion3>();
+        pedidoPocion4 = Pedido4.GetComponent<PedidoPocion4>();
+       
     }
 
     // Update is called once per frame
@@ -44,5 +58,22 @@ public class PedidosManager : MonoBehaviour
             Debug.Log("Pedido4 es 8,6,1");
             Instantiate(Pedido4);
         }
+    }
+
+   public void SalirEscoba1()
+    {
+        pedidoPocion1.Salir();
+    }
+    public void SalirEscoba2()
+    {
+        pedidoPocion2.Salir();
+    }
+    public void SalirEscoba3()
+    {
+        pedidoPocion3.Salir();
+    }
+    public void SalirEscoba4()
+    {
+        pedidoPocion4.Salir();
     }
 }

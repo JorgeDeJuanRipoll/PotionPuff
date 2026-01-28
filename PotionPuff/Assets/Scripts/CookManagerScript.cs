@@ -1,3 +1,4 @@
+using JetBrains.Annotations;
 using System.Collections;
 using UnityEngine;
 
@@ -17,7 +18,7 @@ public class CookManagerScript : MonoBehaviour
 
     public int cantidadIng;
 
-    
+    public bool SalidaEscoba;
   
 
 
@@ -25,6 +26,8 @@ public class CookManagerScript : MonoBehaviour
     void Start()
     {
         ResetIngredientes();
+
+        SalidaEscoba = false;
      
 
     }
@@ -83,10 +86,11 @@ public class CookManagerScript : MonoBehaviour
         {
             Debug.Log("Has hecho la pocion 1");
             ResetIngredientes();
-           
+            SalidaEscoba = true;
             pedidosManager.PedidoRandom();
+           
 
-            pedidosManager.SalirEscoba1();
+           
             
         }
     }
@@ -96,10 +100,11 @@ public class CookManagerScript : MonoBehaviour
         {
             Debug.Log("Has hecho la pocion 2");
             ResetIngredientes();
-
+            SalidaEscoba = true;
             pedidosManager.PedidoRandom();
+           
 
-            pedidosManager.SalirEscoba2();
+
         }
     }
     public void Potion3Win()
@@ -108,11 +113,12 @@ public class CookManagerScript : MonoBehaviour
         {
             Debug.Log("Has hecho la pocion 1");
             ResetIngredientes();
-           
+            SalidaEscoba = true;
             pedidosManager.PedidoRandom();
-
-            pedidosManager.SalirEscoba3();
             
+
+
+
 
         }
     }
@@ -122,10 +128,11 @@ public class CookManagerScript : MonoBehaviour
         {
             Debug.Log("Has hecho la pocion 1");
             ResetIngredientes();
-            
+            SalidaEscoba = true;
             pedidosManager.PedidoRandom();
-          
-            pedidosManager.SalirEscoba4();
+      
+
+
         }
     }
     public void PotionLose()
@@ -134,12 +141,13 @@ public class CookManagerScript : MonoBehaviour
         {
             Debug.Log("Has fallado la pocion");
             ResetIngredientes();
-            
+            SalidaEscoba = true;
             pedidosManager.PedidoRandom();
             
 
         }
     }
+
 
   
     

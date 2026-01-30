@@ -1,0 +1,715 @@
+fileFormatVersion: 2
+guid: fa310d58ad7bcc04d807a6b746d241f8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2207775156162295060
+    second: chofchof2_0
+  - first:
+      213: -7636070432733994494
+    second: chofchof2_1
+  - first:
+      213: 4062659563181044431
+    second: chofchof2_2
+  - first:
+      213: -794694148176809945
+    second: chofchof2_3
+  - first:
+      213: -5980564320143051027
+    second: chofchof2_4
+  - first:
+      213: 8375202902413342060
+    second: chofchof2_5
+  - first:
+      213: -4590087556879770550
+    second: chofchof2_6
+  - first:
+      213: -282006442346313887
+    second: chofchof2_7
+  - first:
+      213: -286287232738162076
+    second: chofchof2_8
+  - first:
+      213: 9141927367933406845
+    second: chofchof2_9
+  - first:
+      213: 7395334450683321354
+    second: chofchof2_10
+  - first:
+      213: -3649300796401104509
+    second: chofchof2_11
+  - first:
+      213: 9196547804833620225
+    second: chofchof2_12
+  - first:
+      213: -8262633123791020244
+    second: chofchof2_13
+  - first:
+      213: -3086490300295942404
+    second: chofchof2_14
+  - first:
+      213: 627166825717929649
+    second: chofchof2_15
+  - first:
+      213: -9140296608741150245
+    second: chofchof2_16
+  - first:
+      213: 8180587827050977441
+    second: chofchof2_17
+  - first:
+      213: 1153053836930910157
+    second: chofchof2_18
+  - first:
+      213: 6787748527384645783
+    second: chofchof2_19
+  - first:
+      213: 5499594947270934855
+    second: chofchof2_20
+  - first:
+      213: 289887901152351177
+    second: chofchof2_21
+  - first:
+      213: 8899734065660093247
+    second: chofchof2_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 9
+  spritePivot: {x: 0.5033164, y: 0.09482968}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: chofchof2_0
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 94
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4157cf6aec793ae10800000000000000
+      internalID: 2207775156162295060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chofchof2_1
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 98
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 202e609266a370690800000000000000
+      internalID: -7636070432733994494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chofchof2_2
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 93
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc2ffba0957716830800000000000000
+      internalID: 4062659563181044431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chofchof2_3
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 89
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 720f6d8f1eda8f4f0800000000000000
+      internalID: -794694148176809945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chofchof2_4
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 86
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de67f7def64c00da0800000000000000
+      internalID: -5980564320143051027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chofchof2_5
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 90
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c65fa208aa2ba3470800000000000000
+      internalID: 8375202902413342060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chofchof2_6
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 87
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4c9d34bfabbc40c0800000000000000
+      internalID: -4590087556879770550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chofchof2_7
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 77
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 167839382ac161cf0800000000000000
+      internalID: -282006442346313887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chofchof2_8
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 79
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46a89e45747e60cf0800000000000000
+      internalID: -286287232738162076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chofchof2_9
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 74
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7ea7105186aede70800000000000000
+      internalID: 9141927367933406845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chofchof2_10
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 67
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0c1030308181a660800000000000000
+      internalID: 7395334450683321354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chofchof2_11
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 72
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38946ffa2441b5dc0800000000000000
+      internalID: -3649300796401104509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chofchof2_12
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 67
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 101a10bc083b0af70800000000000000
+      internalID: 9196547804833620225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chofchof2_13
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 64
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2f5f0383fa355d80800000000000000
+      internalID: -8262633123791020244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chofchof2_14
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 62
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfeeb20cc659a25d0800000000000000
+      internalID: -3086490300295942404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chofchof2_15
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 37
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b693d5b7e424b800800000000000000
+      internalID: 627166825717929649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chofchof2_16
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 52
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd1b64669a4272180800000000000000
+      internalID: -9140296608741150245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chofchof2_17
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 54
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a8124d3949478170800000000000000
+      internalID: 8180587827050977441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chofchof2_18
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 53
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc70b250b58700010800000000000000
+      internalID: 1153053836930910157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chofchof2_19
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 55
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7905177925de23e50800000000000000
+      internalID: 6787748527384645783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chofchof2_20
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 47
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7410e98677c725c40800000000000000
+      internalID: 5499594947270934855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chofchof2_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 193
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c39edc9283e50400800000000000000
+      internalID: 289887901152351177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chofchof2_22
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 26
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f33ec1bdaf4328b70800000000000000
+      internalID: 8899734065660093247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      chofchof2_0: 2207775156162295060
+      chofchof2_1: -7636070432733994494
+      chofchof2_10: 7395334450683321354
+      chofchof2_11: -3649300796401104509
+      chofchof2_12: 9196547804833620225
+      chofchof2_13: -8262633123791020244
+      chofchof2_14: -3086490300295942404
+      chofchof2_15: 627166825717929649
+      chofchof2_16: -9140296608741150245
+      chofchof2_17: 8180587827050977441
+      chofchof2_18: 1153053836930910157
+      chofchof2_19: 6787748527384645783
+      chofchof2_2: 4062659563181044431
+      chofchof2_20: 5499594947270934855
+      chofchof2_21: 289887901152351177
+      chofchof2_22: 8899734065660093247
+      chofchof2_3: -794694148176809945
+      chofchof2_4: -5980564320143051027
+      chofchof2_5: 8375202902413342060
+      chofchof2_6: -4590087556879770550
+      chofchof2_7: -282006442346313887
+      chofchof2_8: -286287232738162076
+      chofchof2_9: 9141927367933406845
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

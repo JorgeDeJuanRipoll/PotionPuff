@@ -1,6 +1,7 @@
 using JetBrains.Annotations;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CookManagerScript : MonoBehaviour
 {
@@ -19,8 +20,8 @@ public class CookManagerScript : MonoBehaviour
     public int cantidadIng;
 
     public bool SalidaEscoba;
-  
 
+    public int potionPoint;
 
     public PedidosManager pedidosManager;
     void Start()
@@ -37,6 +38,11 @@ public class CookManagerScript : MonoBehaviour
     {
         Cocinar();
         PotionLose();
+
+        if (potionPoint == 10)
+        {
+            SceneManager.LoadScene(2);
+        }
         
       
     }
@@ -88,10 +94,10 @@ public class CookManagerScript : MonoBehaviour
             ResetIngredientes();
             SalidaEscoba = true;
             pedidosManager.PedidoRandom();
-           
+            GanarPotionPoint();
 
-           
-            
+
+
         }
     }
     public void Potion2Win()
@@ -102,7 +108,7 @@ public class CookManagerScript : MonoBehaviour
             ResetIngredientes();
             SalidaEscoba = true;
             pedidosManager.PedidoRandom();
-           
+            GanarPotionPoint();
 
 
         }
@@ -115,7 +121,7 @@ public class CookManagerScript : MonoBehaviour
             ResetIngredientes();
             SalidaEscoba = true;
             pedidosManager.PedidoRandom();
-            
+            GanarPotionPoint();
 
 
 
@@ -130,7 +136,7 @@ public class CookManagerScript : MonoBehaviour
             ResetIngredientes();
             SalidaEscoba = true;
             pedidosManager.PedidoRandom();
-      
+            GanarPotionPoint();
 
 
         }
@@ -143,16 +149,22 @@ public class CookManagerScript : MonoBehaviour
             ResetIngredientes();
             SalidaEscoba = true;
             pedidosManager.PedidoRandom();
-            
+            perderPotionPoint();
 
         }
     }
 
 
-  
+  public void GanarPotionPoint()
+    {
+        potionPoint++;
+    }
     
    
-
+    public void perderPotionPoint()
+    {
+        potionPoint--;
+    }
   
   
 }

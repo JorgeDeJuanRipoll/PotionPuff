@@ -2,6 +2,7 @@ using JetBrains.Annotations;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class CookManagerScript : MonoBehaviour
 {
@@ -24,12 +25,22 @@ public class CookManagerScript : MonoBehaviour
     public int potionPoint;
 
     public PedidosManager pedidosManager;
+
+    [Header("Timer")]
+    public Slider timeSlider;
+    public float sliderTimer;
+    public bool stopTimer = false;
+
     void Start()
     {
         ResetIngredientes();
 
         SalidaEscoba = false;
      
+        timeSlider.maxValue = sliderTimer;
+        timeSlider.value = sliderTimer;
+
+        StartTimer();
 
     }
 
@@ -95,7 +106,7 @@ public class CookManagerScript : MonoBehaviour
             SalidaEscoba = true;
             pedidosManager.PedidoRandom();
             GanarPotionPoint();
-
+            ResetTimer();
 
 
         }
@@ -109,7 +120,7 @@ public class CookManagerScript : MonoBehaviour
             SalidaEscoba = true;
             pedidosManager.PedidoRandom();
             GanarPotionPoint();
-
+            ResetTimer();
 
         }
     }
@@ -122,7 +133,7 @@ public class CookManagerScript : MonoBehaviour
             SalidaEscoba = true;
             pedidosManager.PedidoRandom();
             GanarPotionPoint();
-
+            ResetTimer();
 
 
 
@@ -137,6 +148,7 @@ public class CookManagerScript : MonoBehaviour
             SalidaEscoba = true;
             pedidosManager.PedidoRandom();
             GanarPotionPoint();
+            ResetTimer();
 
 
         }
@@ -150,10 +162,19 @@ public class CookManagerScript : MonoBehaviour
             SalidaEscoba = true;
             pedidosManager.PedidoRandom();
             perderPotionPoint();
+            ResetTimer();
 
         }
     }
-
+     public void TimePotionLose()
+    {
+        Debug.Log("Has fallado la pocion");
+        ResetIngredientes();
+       
+        pedidosManager.PedidoRandom();
+        perderPotionPoint();
+        ResetTimer();
+    }
 
   public void GanarPotionPoint()
     {
@@ -166,5 +187,43 @@ public class CookManagerScript : MonoBehaviour
         potionPoint--;
     }
   
-  
+    //Timer
+
+    public void StartTimer()
+    {
+        StartCoroutine(StartTheTimerTicker());
+    }
+    IEnumerator StartTheTimerTicker()
+    {
+        while (stopTimer == false)
+        {
+            sliderTimer -= Time.deltaTime;
+            yield return new WaitForSeconds(0.001f);
+
+            if (sliderTimer <= 0)
+            {
+                
+                TimePotionLose();
+            }
+            if (stopTimer == false)
+            {
+                timeSlider.value = sliderTimer;
+            }
+        }
+        
+    }
+
+    public void StopTimer()
+    {
+        stopTimer = true;
+    }
+
+    public void ResetTimer()
+    {
+        sliderTimer = 20;
+        timeSlider.maxValue = sliderTimer;
+        timeSlider.value = sliderTimer;
+        stopTimer = false;
+        SalidaEscoba = true;
+    }
 }

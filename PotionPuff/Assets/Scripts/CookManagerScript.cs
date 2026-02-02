@@ -22,7 +22,7 @@ public class CookManagerScript : MonoBehaviour
 
     public bool SalidaEscoba;
 
-    public int potionPoint;
+    public float potionPoint;
 
     public PedidosManager pedidosManager;
 
@@ -31,14 +31,21 @@ public class CookManagerScript : MonoBehaviour
     public float sliderTimer;
     public bool stopTimer = false;
 
+    [Header("Progresion")]
+    public Slider progSlider;
+    
+
     void Start()
     {
         ResetIngredientes();
+        potionPoint = 0;
 
         SalidaEscoba = false;
      
         timeSlider.maxValue = sliderTimer;
         timeSlider.value = sliderTimer;
+
+        progSlider.maxValue = 10f;
 
         StartTimer();
 
@@ -54,8 +61,8 @@ public class CookManagerScript : MonoBehaviour
         {
             SceneManager.LoadScene(2);
         }
-        
-      
+
+        progSlider.value = potionPoint;
     }
 
     public void ResetIngredientes()

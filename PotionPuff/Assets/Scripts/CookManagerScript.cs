@@ -26,6 +26,9 @@ public class CookManagerScript : MonoBehaviour
 
     public PedidosManager pedidosManager;
 
+    public GameObject losePuff;
+    public Transform losePuffTransform;
+
     [Header("Timer")]
     public Slider timeSlider;
     public float sliderTimer;
@@ -170,7 +173,7 @@ public class CookManagerScript : MonoBehaviour
             pedidosManager.PedidoRandom();
             perderPotionPoint();
             ResetTimer();
-
+            StartCoroutine(InvocarExplosion());
         }
     }
      public void TimePotionLose()
@@ -232,5 +235,11 @@ public class CookManagerScript : MonoBehaviour
         timeSlider.value = sliderTimer;
         stopTimer = false;
         SalidaEscoba = true;
+    }
+
+    IEnumerator InvocarExplosion()
+    {
+        yield return new WaitForSeconds(1);
+        Instantiate(losePuff, losePuffTransform);
     }
 }

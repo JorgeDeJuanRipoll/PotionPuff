@@ -36,7 +36,11 @@ public class CookManagerScript : MonoBehaviour
 
     [Header("Progresion")]
     public Slider progSlider;
-    
+    [Header("Puntuacion")]
+    public int puntos;
+    public int puntosGanados;
+    public int puntosperdidos;
+
 
     void Start()
     {
@@ -117,7 +121,7 @@ public class CookManagerScript : MonoBehaviour
             pedidosManager.PedidoRandom();
             GanarPotionPoint();
             ResetTimer();
-
+            GanarPuntos(30);
 
         }
     }
@@ -131,7 +135,7 @@ public class CookManagerScript : MonoBehaviour
             pedidosManager.PedidoRandom();
             GanarPotionPoint();
             ResetTimer();
-
+            GanarPuntos(30);
         }
     }
     public void Potion3Win()
@@ -144,7 +148,7 @@ public class CookManagerScript : MonoBehaviour
             pedidosManager.PedidoRandom();
             GanarPotionPoint();
             ResetTimer();
-
+            GanarPuntos(30);
 
 
         }
@@ -159,7 +163,7 @@ public class CookManagerScript : MonoBehaviour
             pedidosManager.PedidoRandom();
             GanarPotionPoint();
             ResetTimer();
-
+            GanarPuntos(30);
 
         }
     }
@@ -174,6 +178,7 @@ public class CookManagerScript : MonoBehaviour
             perderPotionPoint();
             ResetTimer();
             StartCoroutine(InvocarExplosion());
+            PerderPuntos(50);
         }
     }
      public void TimePotionLose()
@@ -239,7 +244,17 @@ public class CookManagerScript : MonoBehaviour
 
     IEnumerator InvocarExplosion()
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(1.3f);
         Instantiate(losePuff, losePuffTransform);
+    }
+
+    public void GanarPuntos(int puntosGanados)
+    {
+        puntos += puntosGanados;
+    }
+
+    public void PerderPuntos(int puntosPerdidos)
+    {
+        puntos -= puntosPerdidos;
     }
 }

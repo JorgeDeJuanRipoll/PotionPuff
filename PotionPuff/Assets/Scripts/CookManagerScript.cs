@@ -3,6 +3,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using TMPro;
 
 public class CookManagerScript : MonoBehaviour
 {
@@ -28,6 +29,9 @@ public class CookManagerScript : MonoBehaviour
 
     public GameObject losePuff;
     public Transform losePuffTransform;
+
+    public GameObject winCanvas;
+    public TextMeshProUGUI textPoints;
 
     [Header("Timer")]
     public Slider timeSlider;
@@ -56,6 +60,9 @@ public class CookManagerScript : MonoBehaviour
         progSlider.maxValue = 10f;
 
         StartTimer();
+        winCanvas.SetActive(false);
+
+        Time.timeScale = 1;
 
     }
 
@@ -67,7 +74,9 @@ public class CookManagerScript : MonoBehaviour
 
         if (potionPoint == 10)
         {
-            SceneManager.LoadScene(2);
+            winCanvas.SetActive(true);
+            textPoints.text = "Abracadabra, pata de cabra!!!, you had good witchcraft\r\n\r\nyou have " + puntos + " of power points\r\n\r\n\r\n                  YOU WIN";
+            Time.timeScale = 0;
         }
 
         progSlider.value = potionPoint;
@@ -266,4 +275,6 @@ public class CookManagerScript : MonoBehaviour
     {
         puntos -= puntosPerdidos;
     }
+
+    
 }

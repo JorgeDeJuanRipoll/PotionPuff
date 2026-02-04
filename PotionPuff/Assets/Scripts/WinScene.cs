@@ -7,7 +7,7 @@ public class WinScene : MonoBehaviour
 
 	public void PlayAgain()
 	{
-		SceneManager.LoadScene("SampleScene");
+		SceneManager.LoadScene("MainMenu");
 	}
 
 }

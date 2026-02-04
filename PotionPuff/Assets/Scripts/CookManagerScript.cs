@@ -41,7 +41,7 @@ public class CookManagerScript : MonoBehaviour
     public int puntosGanados;
     public int puntosperdidos;
 
-    public GameObject búho;
+    public buhoScript buhoScript;
 
     void Start()
     {
@@ -124,7 +124,7 @@ public class CookManagerScript : MonoBehaviour
             ResetTimer();
             GanarPuntos(30);
             AudioManager.Instance.PlaySFX(3);
-
+            buhoScript.Celebrar();
         }
     }
     public void Potion2Win()
@@ -139,6 +139,7 @@ public class CookManagerScript : MonoBehaviour
             ResetTimer();
             GanarPuntos(30);
             AudioManager.Instance.PlaySFX(3);
+            buhoScript.Celebrar();
         }
     }
     public void Potion3Win()
@@ -153,7 +154,7 @@ public class CookManagerScript : MonoBehaviour
             ResetTimer();
             GanarPuntos(30);
             AudioManager.Instance.PlaySFX(3);
-
+            buhoScript.Celebrar();
 
         }
     }
@@ -169,7 +170,7 @@ public class CookManagerScript : MonoBehaviour
             ResetTimer();
             GanarPuntos(30);
             AudioManager.Instance.PlaySFX(3);
-
+            buhoScript.Celebrar();
         }
     }
     public void PotionLose()
@@ -184,6 +185,8 @@ public class CookManagerScript : MonoBehaviour
             ResetTimer();
             StartCoroutine(InvocarExplosion());
             PerderPuntos(50);
+            buhoScript.Enfadarse();
+            
         }
     }
      public void TimePotionLose()

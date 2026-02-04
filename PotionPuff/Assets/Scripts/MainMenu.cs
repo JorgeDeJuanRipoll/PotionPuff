@@ -12,7 +12,7 @@ public class InfoMenu : MonoBehaviour
 
 	public void Controls()
 	{
-		SceneManager.LoadScene("Controls");
+		SceneManager.LoadScene("How to play");
 	}
 
 	public void Menu()

@@ -122,6 +122,7 @@ public class CookManagerScript : MonoBehaviour
             GanarPotionPoint();
             ResetTimer();
             GanarPuntos(30);
+            AudioManager.Instance.PlaySFX(3);
 
         }
     }
@@ -136,6 +137,7 @@ public class CookManagerScript : MonoBehaviour
             GanarPotionPoint();
             ResetTimer();
             GanarPuntos(30);
+            AudioManager.Instance.PlaySFX(3);
         }
     }
     public void Potion3Win()
@@ -149,6 +151,7 @@ public class CookManagerScript : MonoBehaviour
             GanarPotionPoint();
             ResetTimer();
             GanarPuntos(30);
+            AudioManager.Instance.PlaySFX(3);
 
 
         }
@@ -164,6 +167,7 @@ public class CookManagerScript : MonoBehaviour
             GanarPotionPoint();
             ResetTimer();
             GanarPuntos(30);
+            AudioManager.Instance.PlaySFX(3);
 
         }
     }
@@ -246,6 +250,7 @@ public class CookManagerScript : MonoBehaviour
     {
         yield return new WaitForSeconds(1.3f);
         Instantiate(losePuff, losePuffTransform);
+        AudioManager.Instance.PlaySFX(2);
     }
 
     public void GanarPuntos(int puntosGanados)

@@ -202,12 +202,19 @@ public class CookManagerScript : MonoBehaviour
     {
         Debug.Log("Has fallado la pocion");
         ResetIngredientes();
-       
-        pedidosManager.PedidoRandom();
+        SalidaEscoba = true;
         perderPotionPoint();
         ResetTimer();
+        PerderPuntos(50);
+        buhoScript.Enfadarse();
+        StartCoroutine(EscobaRetardada());
     }
 
+    IEnumerator EscobaRetardada()
+    {
+        yield return new WaitForSeconds(0.01f);
+        pedidosManager.PedidoRandom();
+    }
   public void GanarPotionPoint()
     {
         potionPoint++;
@@ -252,7 +259,7 @@ public class CookManagerScript : MonoBehaviour
 
     public void ResetTimer()
     {
-        sliderTimer = 20;
+        sliderTimer = 10;
         timeSlider.maxValue = sliderTimer;
         timeSlider.value = sliderTimer;
         stopTimer = false;

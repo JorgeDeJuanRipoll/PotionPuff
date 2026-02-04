@@ -2194,7 +2194,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::AudioManager
   musicList:
   - {fileID: 8300000, guid: be95e8e2f2720a64a865d4d0173a61f0, type: 3}
-  - {fileID: 8300000, guid: be95e8e2f2720a64a865d4d0173a61f0, type: 3}
   sfxList:
   - {fileID: 8300000, guid: 33b44072f0e1911488eccab34b243c35, type: 3}
   - {fileID: 8300000, guid: f0bcd8c20e9c07747bee1783d0731f41, type: 3}

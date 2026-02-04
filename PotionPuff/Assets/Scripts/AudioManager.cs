@@ -39,6 +39,11 @@ public class AudioManager : MonoBehaviour
 	{
 		sfxSource.PlayOneShot(sfxList[sfxIndex]);
 	}
-	//Este es para los sonidos
+    //Este es para los sonidos
+
+    void Start()
+    {
+		AudioManager.Instance.PlayMusic(0); 
+    }
 }
 	

@@ -41,6 +41,7 @@ public class CookManagerScript : MonoBehaviour
     public int puntosGanados;
     public int puntosperdidos;
 
+    public GameObject búho;
 
     void Start()
     {

@@ -507,6 +507,7 @@ MonoBehaviour:
   puntos: 0
   puntosGanados: 0
   puntosperdidos: 0
+  "b\xFAho": {fileID: 1708097130}
 --- !u!4 &149117061
 Transform:
   m_ObjectHideFlags: 0

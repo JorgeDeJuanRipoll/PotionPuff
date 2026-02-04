@@ -10,7 +10,7 @@ public class InfoMenu : MonoBehaviour
 		SceneManager.LoadScene("SampleScene");
 	}
 
-	public void Controls()
+	public void ControlsH()
 	{
 		SceneManager.LoadScene("How to play");
 	}

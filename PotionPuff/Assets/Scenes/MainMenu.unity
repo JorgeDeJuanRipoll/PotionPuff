@@ -646,7 +646,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 712873802}
         m_TargetAssemblyTypeName: InfoMenu, Assembly-CSharp
-        m_MethodName: Howtoplay
+        m_MethodName: Menu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

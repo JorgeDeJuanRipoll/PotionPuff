@@ -11,6 +11,7 @@ public class EscobaScript : MonoBehaviour
       animator = GetComponent<Animator>();
       cookManagerScript = FindObjectOfType<CookManagerScript>();
       cookManagerScript.SalidaEscoba = false;
+        AudioManager.Instance.PlaySFX(0);
 
     }
 

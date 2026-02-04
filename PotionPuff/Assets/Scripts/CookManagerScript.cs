@@ -90,19 +90,19 @@ public class CookManagerScript : MonoBehaviour
 
     public void Cocinar()
     {
-        if (I1 == true && I3 == true && I5 == true && cantidadIng == 3)
+        if (I6 == true && I7 == true && I2 == true && cantidadIng == 3)
         {
             potionNum = 5;
         }
-        if (I2 == true && I4 == true && I6 == true)
+        if (I1 == true && I3 == true && I5 == true && cantidadIng == 3)
         {
             potionNum = 1;
         }
-      if(I7 == true && I3 &&  I5 == true)
+      if(I7 == true && I8 &&  I4 == true && cantidadIng == 3)
         {
             potionNum = 2;
         }
-        if(I8 == true && I6 == true && I1 ==true)
+        if(I5 == true && I4 == true && I6 == true && cantidadIng == 3)
         {
             potionNum = 3;
         }

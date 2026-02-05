@@ -207,6 +207,8 @@ public class CookManagerScript : MonoBehaviour
         ResetTimer();
         PerderPuntos(50);
         buhoScript.Enfadarse();
+        Instantiate(losePuff, losePuffTransform);
+        AudioManager.Instance.PlaySFX(2);
         StartCoroutine(EscobaRetardada());
     }
 

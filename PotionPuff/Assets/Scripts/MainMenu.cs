@@ -19,4 +19,11 @@ public class InfoMenu : MonoBehaviour
 	{
 		SceneManager.LoadScene("Menu");
 	}
+
+    public void ExitGame()
+    {
+        Application.Quit();
+    }
+
+	
 }
